@@ -1,0 +1,33 @@
+* {
+    font-family: Helvetica;
+}
+h1 {
+    color: darkgray;
+    text-align: center;
+}
+
+#calc {
+    background: lightgrey;
+    text-align: center;
+    width: 320px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+table {
+    border: 2px solid black;
+    height: 350px;
+    margin: 0 auto;
+    width: 320px;
+}
+
+td {
+    width: 75px;
+    border: 2px solid lightgray;
+}
+
+td:hover {
+    color: white; 
+    background-color: darkgray;
+    border: 2px solid white;
+}
