@@ -30,6 +30,9 @@ th {
     background-color: #ff3B3F;
     color: white;
     border-radius: 5%;
+    font-size: 22px;
+    margin-bottom: 10px;
+    height: 50px;
 }
 
 td {
@@ -37,6 +40,7 @@ td {
     border: 2px solid #A9A9A9;
     color: #A9A9A9;
     font-weight: bold;
+    border-radius: 10%;
 }
 
 td:hover {

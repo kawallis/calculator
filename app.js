@@ -47,4 +47,10 @@ function additionHandler (event) {
   calculator.result.push(add.textContent);
 }
 
-//eval("225" + "+" + "15");
+//AC button code
+ac.addEventListener('click', acHandler);
+function acHandler (event) {
+  arr = [];
+  calculator.result = [];
+  screen.textContent = '';
+}
