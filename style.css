@@ -1,13 +1,14 @@
 * {
-    font-family: Helvetica;
+    font-family: sans-serif;
 }
 h1 {
-    color: darkgray;
+    color: #A9A9A9;
     text-align: center;
 }
-
+body {
+    background: #EFEFEF;
+}
 #calc {
-    background: lightgrey;
     text-align: center;
     width: 320px;
     height: 350px;
@@ -15,19 +16,35 @@ h1 {
 }
 
 table {
-    border: 2px solid black;
+    background: #EFEFEF;
+    border: 10px solid #A9A9A9;
     height: 350px;
     margin: 0 auto;
     width: 320px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+th {
+    border: 5px solid #A9A9A9;
+    background-color: #ff3B3F;
+    color: white;
+    border-radius: 5%;
 }
 
 td {
     width: 75px;
-    border: 2px solid lightgray;
+    border: 2px solid #A9A9A9;
+    color: #A9A9A9;
+    font-weight: bold;
 }
 
 td:hover {
     color: white; 
-    background-color: darkgray;
+    background-color: #A9A9A9;
     border: 2px solid white;
+}
+
+.operator {
+    background-color: #CAEBF2;
 }
